@@ -1,158 +1,143 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
 body {
-    padding: 0;
-    margin: 0;
-    background-color: #05052e;
+padding: 0;
+margin: 0;
+background-color: #05052e;
 }
-
-nav ul {
-    background-color: #ffffff;
-    color: #000000;
-    padding: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+nav {
+display: flex;
+background-color: #ffffff;
+justify-content: space-between;
+padding-inline: 2rem;
 }
-
+nav ul{
+color: #000000;
+padding: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1.5rem;
+}
 nav ul li {
-    list-style: none;
-    margin-right: 20px;
+list-style: none;
+margin-right: 20px;
 }
-
 nav ul li a {
-    text-decoration: none;
-    color: #000000;
-    font-weight: bold;
+text-decoration: none;
+color: #000000;
+font-weight: bold;
 }
-
 .logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #000000;
-    margin-right: 20px;
-    transform: scale(0.1) translateY(-555%); 
-
+font-size: 24px;
+font-weight: bold;
+color: #000000;
+height: 120px;
 }
-
 .footer {
-    color: #ffffff80;
-    padding: 20px;
-    text-align: center;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+color: #ffffff80;
+padding: 20px;
+text-align: center;
+bottom: 0;
+left: 0;
+width: 100%;
 }
-
 .home h1 {
-    color: #ffffff;
-    font-size: 52px;
-    text-align: center;
-    margin-top: 50px;
+color: #ffffff;
+font-size: 52px;
+text-align: center;
+margin-top: 50px;
 }
-
 .home h2 {
-    color: #ffffff;
-    font-size: 5vh;
-    text-align: center;
-    margin-top: 20px;
-    font-family: 'WindSong', cursive;
+color: #ffffff;
+font-size: 15vh;
+text-align: center;
+margin-top: 20px;
+font-family: "Monsieur La Doulaise", cursive;
+font-weight: 400;
 }
-
 .services {
-    padding: 50px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    text-align: center;
+padding: 50px;
+margin-top: 50px;
+margin-bottom: 50px;
+text-align: center;
 }
-
 .services ul {
-    padding: 20px;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: space-between;
-    gap: 24px;
-    background-color: #ffffff;
-    color: #05052e;
-    border-radius: 12px;
-    font-family: Arial, sans-serif;
-    list-style: none;
+padding: 20px;
+margin: 0;
+display: flex;
+flex-direction: column;
+align-items: left;
+justify-content: space-between;
+gap: 24px;
+background-color: #ffffff;
+color: #05052e;
+border-radius: 12px;
+font-family: Arial, sans-serif;
+list-style: none;
 }
-
 .services h2 {
-    color: #ffffff;
-    font-size: 36px;
-    margin-bottom: 20px;
+color: #ffffff;
+font-size: 36px;
+margin-bottom: 20px;
 }
-
 .services li {
-    color: #05052e;
-    font-weight: 900;
-    font-size: 18px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    margin-left: 10px;
-    text-align: left;
-    text-transform: uppercase;
-
-    border-bottom: 2px dotted #05052e;
-    
+color: #05052e;
+font-weight: 900;
+font-size: 18px;
+margin-top: 10px;
+margin-bottom: 20px;
+margin-left: 10px;
+text-align: left;
+text-transform: uppercase;
+border-bottom: 2px dotted #05052e;
 }
-
 .about {
-    background-color: #05052e;
-    padding: 50px;
-    text-align: center;
-    background-image: url('image/pozadi-about.webp');
-    background-size: cover;
-    background-position: center;
+background-color: #05052e;
+padding: 50px;
+text-align: center;
+background-image: url('image/pozadi-about.webp');
+background-size: cover;
+background-position: center;
 }
-
 .about h1{
-    color: #ffffff;
-    font-size: 52px;
-    text-align: center;
-    margin-top: 50px;
+color: #ffffff;
+font-size: 52px;
+text-align: center;
+margin-top: 50px;
 }
-
 .about p{
-    color: #ffffff;
-    font-size: 18px;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 50px;
-    margin-inline: auto;
-    width: 80%;
+color: #ffffff;
+font-size: 18px;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 50px;
+margin-inline: auto;
+width: 80%;
 }
-
-.contact  {
-    color: #ffffff;
-    padding: 50px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    text-align: center;
-
+.contact {
+color: #ffffff;
+padding: 50px;
+margin-top: 50px;
+margin-bottom: 50px;
+text-align: center;
 }
-
 .contact a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 18px;
-    margin-right: 20px;
-
+color: #ffffff;
+text-decoration: none;
+font-size: 18px;
+margin-right: 20px;
 }
-
 .contact li {
-    color: #ffffff;
-    font-size: 18px;
-    margin-bottom: 10px;
-    list-style: none;
-    font-family: Arial, sans-serif;
-    font-weight: 900;
-    text-transform: uppercase;
+color: #ffffff;
+font-size: 18px;
+margin-bottom: 10px;
+list-style: none;
+font-family: Arial, sans-serif;
+font-weight: 900;
+text-transform: uppercase;
 }
