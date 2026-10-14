@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
-{
+* {
 margin: 0;
 padding: 0;
 box-sizing: border-box;
@@ -140,4 +140,99 @@ list-style: none;
 font-family: Arial, sans-serif;
 font-weight: 900;
 text-transform: uppercase;
+}
+
+.faq-container {
+ margin: 50px auto;
+ padding: 50px;
+}
+ .faq-container h1 {
+  color: #ffffff;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  text-align: center;
+ }
+
+.question {
+    margin-top: 10px;
+ margin-bottom: 10px;
+ background-color: #ffffff;
+ border-radius: 10px;
+ padding: 10px;
+}
+
+.question h2 {
+ font-size: 2rem;
+ color :#05052e;
+ font-weight: bold;
+ text-align: center;
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+
+.answer {
+ margin-bottom: 10px;
+ font-size: 1.5rem;
+ font-weight: normal;
+ color: #05052e;
+ text-align: center;
+}
+
+.answer li{
+    color :#05052e;
+    width: fit-content;
+}
+
+.answer ol li{
+    color :#05052e;
+    width: fit-content;
+    margin-inline: auto;
+}
+
+.plist{
+    margin-block: 50px;
+    background-color: #ffffff;
+    width: fit-content;
+    margin-inline: auto;
+}
+
+.plist table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.plist th, .plist td{
+    padding: 1rem 4rem;
+    color:#05052e;
+}
+
+.plist th{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.plist td{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.plist tr > *:not(:first-child){
+    border-left: 1px solid #05052e;
+    text-align: right;
+}
+
+.plist tr:not(:last-child) > *{
+    border-bottom: 1px solid #05052e;
+}
+
+.plist tr > *:first-child{
+    text-align: left;
+}
+
+.cenik{
+    color: #ffffff;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
